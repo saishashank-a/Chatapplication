@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* YourComponentStyles.css */
+
+/* Container styles */
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Tab styles */
+.tab {
+    width: 50%;
+}
+
+/* Form container styles */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input field styles */
+.input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button styles */
+.submit-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.submit-button:hover {
+    background-color: #0056b3;
+}
